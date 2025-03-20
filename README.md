@@ -52,3 +52,32 @@ This dictionary stores key Spanish words and their English translations.
 
 Another dictionary is automatically created for reverse translation (English → Spanish).
 
+![ReverseDictionary](reversedictionary.png)
+
+✦ Converts { "ciudad": "city" } into { "city": "ciudad" }.
+
+### 3️⃣ populateDatalists() (Adding Suggestions)
+
+This function adds dictionary words to the datalist for input fields.
+
+![PopulateDatalist](datalist.png)
+✦ Adds options with Spanish and English words.
+
+### 4️⃣ Real-time Translation
+
+Every time the user types in an input field, an event runs that automatically translates the text.
+
+📖 Spanish → English  
+
+![Spanishenglish](spanishenglish.png)
+
+✦ If the word is in the dictionary, the translation appears.
+✦ If not found, it shows "Not found".
+
+📖 English → Spanish
+
+![Englishspanish](englishspanish.png)
+
+✦ Works the same way but in the opposite direction.
+
+
