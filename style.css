@@ -6,7 +6,7 @@
   }
   
   body {
-    background: linear-gradient(135deg, #91f1ef 0%, #e0f7fa 50%, #e6e6fa 100%);
+    background: linear-gradient(135deg, #91f1ef 0%,  #ffb6c1 100%);
     height: 100vh; /* Make sure body takes full height of viewport */
     display: flex;
     flex-direction: column;
@@ -17,18 +17,33 @@
   
   .header {
     background-color: #ffb6c1;
-    padding: 50px 120px;  /* Increased padding */
+    padding: 20px 50px; /* Reduced padding */
     border-radius: 50px;
-    margin-bottom: 60px;
-    margin-top: 60px;
+    margin-bottom: 30px;
+    margin-top: 30px;
     text-align: center;
-    min-width: 1600px;
+    min-width: 40%; /* Removed fixed width */
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+  justify-content: center;
+    
   }
   
   .header h1 {
-    font-size: 5rem;  /* Increased header font size */
+    font-size: 6rem; /* Reduced header font size */
     font-weight: bold;
     color: #000;
+    
+  }
+  
+  .logoimg {
+    width: 80rem; /* Controlled width for the logo */
+    height: 70rem;
+margin-right: 170rem;
+margin-top: -39rem;
+    display: flex;
+    justify-content: flex-start;
   }
   
   .container {
@@ -38,6 +53,7 @@
     grid-template-columns: 1fr 1fr;
     grid-gap: 60px;  /* Increased gap between columns */
     margin-bottom: 60px;
+    margin-top: -28rem;
     padding: 0 20px; /* Add some padding for spacing */
   }
   
