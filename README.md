@@ -106,7 +106,7 @@ La función populateDatalists() agrega dinámicamente sugerencias de palabras a 
 - ✦ Ejecuta la función para generar y mostrar las sugerencias cuando se carga la página.
 
 
-- ✦ Agrega opciones con palabras en español e inglés.
+- 0✦ Agrega opciones con palabras en español e inglés.
 
 ## 4️⃣ Traducción en Tiempo Real
 
