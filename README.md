@@ -32,11 +32,11 @@ Este proyecto es un traductor básico de español a inglés y de inglés a espa�
 
 Este archivo define la interfaz de usuario, que incluye:
 
-    Cuatro campos de entrada (input):
-    Dos para escribir palabras en español e inglés.
-    Dos campos de solo lectura para mostrar la traducción.
-    Datalist: Lista de sugerencias de palabras predefinidas.
-    Footer: Muestra los nombres de los creadores.
+### Cuatro campos de entrada (input):
+    - Dos para escribir palabras en español e inglés.
+    - Dos campos de solo lectura para mostrar la traducción.
+- Datalist: Lista de sugerencias de palabras predefinidas.
+- Footer: Muestra los nombres de los creadores.
 
 ![htmlList](htmllist.png)
 
@@ -106,10 +106,10 @@ This project is a basic Spanish-to-English and English-to-Spanish translator. It
 
 ## 📂 Project Structure  
 ### 📁 Language-Translator
-│── 📄 index.html # Main webpage
-│── 📄 style.css # Page styling
-│── 📄 main.js # Translation logic
-│── 📄 README.md # Project documentation
+- │── 📄 index.html # Main webpage
+- │── 📄 style.css # Page styling
+- │── 📄 main.js # Translation logic
+- │── 📄 README.md # Project documentation
 
 
 ## 🛠 Technologies Used  
