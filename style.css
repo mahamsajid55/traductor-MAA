@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background: linear-gradient(135deg, #91f1ef 0%, #e0f7fa 50%, #e6e6fa 100%);
+    height: 100vh; /* Make sure body takes full height of viewport */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    justify-content: space-between; /* Ensure content is spaced well vertically */
+  }
+  
+  .header {
+    background-color: #ffb6c1;
+    padding: 50px 120px;  /* Increased padding */
+    border-radius: 50px;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    text-align: center;
+    min-width: 1600px;
+  }
+  
+  .header h1 {
+    font-size: 5rem;  /* Increased header font size */
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 2000px; /* Increased max-width */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 60px;  /* Increased gap between columns */
+    margin-bottom: 60px;
+    padding: 0 20px; /* Add some padding for spacing */
+  }
+  
+  .language-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .language-header {
+    background-color: #ffb6c1;
+    padding: 30px 0;  /* Increased padding */
+    width: 100%;
+    text-align: center;
+    border-radius: 25px;
+    margin-bottom: 30px;
+    font-size: 2.5rem;  /* Increased font size */
+    font-weight: bold;
+  }
+  
+  .text-box {
+    width: 100%;
+    height: 400px;  /* Increased height of the text box */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 35px;  /* Increased padding inside text box */
+    resize: none;
+    font-size: 2rem;  /* Larger font size inside text box */
+    background-color: white;
+  }
+  
+  .footer {
+    width: 100%;
+    background-color: #ffb6c1;
+    padding: 40px ;  /* Increased padding */
+    text-align: center;
+    
+    margin-top: 100px;
+    border-radius: 25px;
+  }
+  
+  .footer p {
+    font-size: 2rem;  /* Larger footer font size */
+    color: black;
+  }
+  
+  /* For responsive design */
+  @media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr;  /* Stacks content into a single column */
+    }
+    .header h1 {
+        font-size: 3rem;  /* Slightly smaller header for small screens */
+    }
+    .language-header {
+        font-size: 2rem;  /* Smaller font size for language headers on small screens */
+    }
+    .text-box {
+        font-size: 1.2rem;  /* Adjusted text size for small screens */
+        height: 250px;  /* Reduced height for text box on small screens */
+    }
+    .footer p {
+        font-size: 1.4rem;  /* Adjusted footer font size for small screens */
+    }
+  }
+  

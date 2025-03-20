@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TRADUCTOR</title>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Traductor De Idiomas</h1>
+    </div>
+    
+    <div class="container">
+        <!-- Spanish Input -->
+        <div class="language-section">
+            <div class="language-header">Español 🇪🇸</div>
+            <input list="spanishWords" id="spanishInput" class="text-box" placeholder="Escribe...">
+            <datalist id="spanishWords"></datalist>
+        </div>
+        
+        <!-- English Output (Read-Only) -->
+        <div class="language-section">
+            <div class="language-header">English 🇬🇧</div>
+            <input id="englishOutput" class="text-box" placeholder="Translation" readonly>
+        </div>
+        
+        <!-- English Input -->
+        <div class="language-section">
+            <div class="language-header">English 🇬🇧</div>
+            <input list="englishWords" id="englishInput" class="text-box" placeholder="Write...">
+            <datalist id="englishWords"></datalist>
+        </div>
+        
+        <!-- Spanish Output (Read-Only) -->
+        <div class="language-section">
+            <div class="language-header">Español 🇪🇸</div>
+            <input id="spanishOutput" class="text-box" placeholder="Traducción" readonly>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <p>© 2025 Traductor De Idiomas | Created by AZALFA | MAHAM | ALEEZA</p>
+    </div>
+<script src="main.js"></script>
+
+</body>
+</html>
