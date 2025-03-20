@@ -4,9 +4,11 @@
 ## 📌 Description  
 This project is a basic Spanish-to-English and English-to-Spanish translator. It does not rely on any external API but instead uses a predefined **JavaScript dictionary** to translate words automatically.  
 
+![Home](home.png)
+
+
 ## 🚀 Features  
 ✔ Automatic translation without buttons.  
-✔ Real-time translation while typing.  
 ✔ Word suggestions using `datalist`.  
 ✔ No internet connection required.  
 
@@ -35,6 +37,8 @@ This file defines the user interface, which includes:
   - Two read-only fields that display the translation.  
 - **Datalist**: A list of predefined word suggestions.  
 - **Footer**: Displays the creators' names.  
+
+![htmlList](htmllist.png)
 
 
 ### **2️⃣ main.js (Translation Logic)**  
