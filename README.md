@@ -16,10 +16,10 @@ Este proyecto es un traductor básico de español a inglés y de inglés a espa�
 
 ## 📂 Estructura del Proyecto
 
-│── 📄 index.html # Página principal
-│── 📄 style.css # Estilos de la página
-│── 📄 main.js # Lógica de traducción
-│── 📄 README.md # Documentación del proyecto
+- │── 📄 index.html # Página principal
+- │── 📄 style.css # Estilos de la página
+- │── 📄 main.js # Lógica de traducción
+- │── 📄 README.md # Documentación del proyecto
 
 ## 🛠 Tecnologías Usadas
 
@@ -33,8 +33,8 @@ Este proyecto es un traductor básico de español a inglés y de inglés a espa�
 Este archivo define la interfaz de usuario, que incluye:
 
     Cuatro campos de entrada (input):
-        Dos para escribir palabras en español e inglés.
-        Dos campos de solo lectura para mostrar la traducción.
+    Dos para escribir palabras en español e inglés.
+    Dos campos de solo lectura para mostrar la traducción.
     Datalist: Lista de sugerencias de palabras predefinidas.
     Footer: Muestra los nombres de los creadores.
 
@@ -72,40 +72,18 @@ Esta función agrega palabras del diccionario a la lista de sugerencias (datalis
 
 Cada vez que el usuario escribe en un campo de entrada, un evento se ejecuta para traducir el texto automáticamente.
 
-
-![Spanishenglish](spanishenglish.png)
-
 ## 📖 Español → Inglés
 
+![Spanishenglish](spanishenglish.png)
 
 ✦ Si la palabra está en el diccionario, aparece la traducción.
 ✦ Si no se encuentra, muestra "No encontrado".
 
-![Englishspanish](englishspanish.png)
-
 ## 📖 Inglés → Español
 
+![Englishspanish](englishspanish.png)
+
 ✦ Funciona de la misma manera, pero en sentido inverso.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
