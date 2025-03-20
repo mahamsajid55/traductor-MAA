@@ -266,9 +266,3 @@ This JavaScript code enables real-time translation between Spanish and English. 
 - ✦ Displays translation in spanishOutput, or shows "Not found" if missing.
 
 
-## 👥 WE 3 CODERS
-
-- **First Programmer:** Aleeza Sajid-  [GitHub](https://github.com/Aleeza951)
-- **Second Programmer:** Azalfa Murtaza - [GitHub](https://github.com/zille5)
-- **Third Programmer:** Maham Sajid - [GitHub](https://github.com/mahamsajid55)
-
