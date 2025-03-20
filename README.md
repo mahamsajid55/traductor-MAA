@@ -40,5 +40,15 @@ This file defines the user interface, which includes:
 ### **2️⃣ main.js (Translation Logic)**  
 
 ## 📖 Translation Dictionary
+This dictionary stores key Spanish words and their English translations.
 
+![Dictionary](diccionario.png)
+
+
+
+✦ A JavaScript object stores the translations.
+
+### 📖 Reverse Dictionary (English to Spanish)
+
+Another dictionary is automatically created for reverse translation (English → Spanish).
 
