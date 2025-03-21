@@ -2,6 +2,12 @@
 
 # Traductor 
 
+## logo
+
+![Logo](logo.png)
+
+This is the official logo representing the small application and project team "We 3 Coders." It symbolizes the unity, collaboration, and shared passion for coding within our group of three dedicated developers. The design captures the essence of creativity, teamwork, and innovation, serving as a visual reminder of our mission to create impactful and functional web-based projects. With a sleek and minimalistic look, the logo embodies modern aesthetics while reflecting the dynamic spirit of our coding journey.
+ 
 ## 📌 Descripción
 
 Este proyecto es un traductor básico de español a inglés y de inglés a español. No usa ninguna API externa, sino que emplea un diccionario en JavaScript para traducir palabras automáticamente.
@@ -54,23 +60,16 @@ Este diccionario almacena palabras clave en español y sus traducciones al ingl�
 
 Otro diccionario se genera automáticamente para la traducción inversa (inglés → español).
 
-![ReverseDictionary](reversedictionary.png)
+![ReverseDictionary](Reversedictionary.png)
 
 ### 📌 Puntos clave sobre el código de inversión de diccionario
 
-- 1️⃣ Convierte un diccionario de traducción (Español → Inglés) en su versión inversa (Inglés → Español).
-
-- 2️⃣ Utiliza Object.entries(dictionary) para transformar el objeto en un array de pares [clave, valor].
-
-- 3️⃣ Usa .map(([key, value]) => [value, key]) para intercambiar las claves y valores.
-
-- 4️⃣ Aplica Object.fromEntries(...) para reconstruir el objeto con la estructura invertida.
-
-- 5️⃣ Permite traducir palabras de inglés a español sin necesidad de escribir dos diccionarios manualmente.
-
-- 6️⃣ Funciona de manera automática con cualquier conjunto de palabras en el diccionario original.
-
-- 7️⃣ Es eficiente y limpio, evitando estructuras complejas como bucles for o múltiples if-else.
+- const reverseDictionary = {}; → Crea un objeto vacío para almacenar las traducciones de Inglés a Español.
+- for (let key in dictionary) { ... } → Recorre cada clave (palabra en español) en el diccionario.
+- reverseDictionary[dictionary[key]] = key;
+- dictionary[key] obtiene la traducción en inglés de la palabra en español.
+- Esta palabra en inglés se usa como clave en reverseDictionary, y la palabra original en español (key) se almacena como su valor.
+- De manera efectiva, invierte el diccionario, conectando ahora palabras en inglés con palabras en español.
 
 ## 3️⃣ populateDatalists() (Agregando Sugerencias)
 
@@ -191,23 +190,16 @@ This dictionary stores key Spanish words and their English translations.
 
 Another dictionary is automatically created for reverse translation (English → Spanish).
 
-![ReverseDictionary](reversedictionary.png)
+![ReverseDictionary](Reversedictionary.png)
 
 ### 📌 Key Points About the Dictionary Inversion Code
 
-- 1️⃣ Converts a translation dictionary (Spanish → English) into its reverse version (English → Spanish).
-
-- 2️⃣ Uses Object.entries(dictionary) to transform the object into an array of [key, value] pairs.
-
-- 3️⃣ Uses .map(([key, value]) => [value, key]) to swap the keys and values.
-
-- 4️⃣ Applies Object.fromEntries(...) to reconstruct the object with the inverted structure.
-
-- 5️⃣ Allows translating words from English to Spanish without manually writing two dictionaries.
-
-- 6️⃣ Works automatically with any set of words in the original dictionary.
-
-- 7️⃣ It is efficient and clean, avoiding complex structures like for loops or multiple if-else statements.
+- const reverseDictionary = {}; → Creates an empty object to store the English-to-Spanish mappings.
+- for (let key in dictionary) { ... } → Loops through each key (Spanish word) in the dictionary.
+- reverseDictionary[dictionary[key]] = key;
+- dictionary[key] retrieves the English translation of the Spanish word.
+- This English word is then used as the key in reverseDictionary, and the original Spanish word (key) is stored as its value.
+- Effectively, it reverses the dictionary, so English words now connected to Spanish words.
 
 # 3️⃣ populateDatalists() (Adding Suggestions)
 
