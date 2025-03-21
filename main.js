@@ -18,9 +18,10 @@
 };
 
 // Reverse dictionary for English → Spanish
-const reverseDictionary = Object.fromEntries(
-    Object.entries(dictionary).map(([key, value]) => [value, key])
-);
+const reverseDictionary = {};
+for (let key in dictionary) {
+    reverseDictionary[dictionary[key]] = key;
+}
 
 // Populate datalists
 function populateDatalists() {
